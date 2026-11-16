@@ -47,7 +47,7 @@ print(1)'''
 
 # 05 Longest Collatz Sequence up to N
 # For every starting integer from 1 through N, generate its Collatz sequence. Find the starting integer whose sequence contains the most terms, counting both the start and final 1. If tied, return the smaller starting integer.
-n = int(input("Enter N: "))
+'''n = int(input("Enter N: "))
 max_terms = 0
 best_start = 1
 for start in range(1, n + 1):
@@ -63,4 +63,4 @@ for start in range(1, n + 1):
         max_terms = count
         best_start = start
 print("Start =", best_start)
-print("Terms =", max_terms)
+print("Terms =", max_terms)'''
