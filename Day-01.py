@@ -60,7 +60,7 @@ else:
 
 # 05 Find the Next Prime | Challenge
 # Given an integer N, find the smallest prime strictly greater than N. A prime is greater than 1 and has exactly two positive divisors. For efficiency, check divisors only up to the square root.
-'''num = int(input("Enter a numnber: "))
+'''num = int(input("Enter a number: "))
 num += 1
 while True:
     count = 0
